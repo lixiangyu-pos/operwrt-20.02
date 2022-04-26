@@ -19,6 +19,7 @@
 
 ### 获取额外的 LuCI 应用、主题和依赖 ###
 git clone https://github.com/iwrt/luci-app-ikoolproxy.git package/luci-app-ikoolproxy
+git clone https://github.com/281677160/luci-app-autoupdate.git package/luci-app-autoupdate
 git clone -b master --depth 1 https://github.com/kiddin9/luci-theme-edge package/new/luci-theme-edge
 svn export https://github.com/QiuSimons/openwrt-mos/trunk/mosdns package/new/mosdns
 svn export https://github.com/QiuSimons/openwrt-mos/trunk/luci-app-mosdns package/new/luci-app-mosdns
