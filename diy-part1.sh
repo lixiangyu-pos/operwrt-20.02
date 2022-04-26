@@ -27,3 +27,4 @@ git clone https://github.com/lisaac/luci-app-diskman.git package/luci-app-diskma
 git clone https://github.com/zzsj0928/luci-app-pushbot package/luci-app-pushbot
 echo 'src-git nas https://github.com/linkease/nas-packages.git;master' >> feeds.conf.default
 echo 'src-git nas_luci https://github.com/linkease/nas-packages-luci.git;main' >> feeds.conf.default
+git clone https://github.com/linkease/istore.git package/luci-app-store
